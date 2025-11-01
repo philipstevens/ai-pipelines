@@ -205,3 +205,36 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ---------------------------
+# AI Pipelines Additions
+# ---------------------------
+
+# Data, models, outputs
+data/
+datasets/
+models/
+checkpoints/
+outputs/
+reports/
+logs/
+wandb/
+mlruns/
+
+# Configuration and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+.env.*
+secrets.yml
+
+# Build artifacts or cache from experiments
+.cache/
+__results__/
+tmp/
+
+# Local IDE / notebooks
+notebooks/
+.colab/
+

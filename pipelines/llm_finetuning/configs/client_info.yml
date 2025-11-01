@@ -1,0 +1,31 @@
+CLIENT_NAME: Example Client
+YOUR_NAME: Philip Stevens
+CONTACT_EMAIL: contact@philipstevens.ai
+WEBSITE: https://philipstevens.ai
+GITHUB_LINK: https://github.com/philipstevens
+
+USE_CASE: Example use case (domain-tuned assistant)
+BASE_MODEL: meta-llama/Llama-3-8B-Instruct
+DATA_DESC: Example dataset (simulated)
+N_SAMPLES: 100
+N_TOKENS: 5000
+TARGET_BEHAVIOR: Example assistant behavior
+
+EVAL_SIZE: 20
+BEFORE_QUALITY: 70
+AFTER_QUALITY: 90
+DELTA_QUALITY: +20%
+BEFORE_FACTUALITY: 65
+AFTER_FACTUALITY: 88
+DELTA_FACTUALITY: +23%
+BEFORE_CONSISTENCY: 60
+AFTER_CONSISTENCY: 85
+DELTA_CONSISTENCY: +25%
+BEFORE_LAT: 1000
+AFTER_LAT: 700
+DELTA_LAT: -30%
+BEFORE_COST: $0.010
+AFTER_COST: $0.006
+DELTA_COST: -40%
+
+COMPLIANCE: None
